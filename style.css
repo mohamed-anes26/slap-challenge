@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+#game {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+.player {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#timer {
+  font-size: 48px;
+  margin: 0 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 24px;
+  margin-top: 10px;
+}
+#result {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+#restart {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تحدي الصفعة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>تحدي الصفعة</h1>
+  <div id="game">
+    <div id="player1" class="player">
+      <h2>اللاعب 1</h2>
+      <p>الضغطات: <span id="count1">0</span></p>
+      <p>النقاط: <span id="score1">0</span></p>
+      <button id="btn1">A</button>
+    </div>
+    <div id="timer">20</div>
+    <div id="player2" class="player">
+      <h2>اللاعب 2</h2>
+      <p>الضغطات: <span id="count2">0</span></p>
+      <p>النقاط: <span id="score2">0</span></p>
+      <button id="btn2">L</button>
+    </div>
+  </div>
+  <div id="result"></div>
+  <button id="restart">إعادة اللعب</button>
+  <audio id="slapSound" src="slap.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
